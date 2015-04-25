@@ -1,0 +1,8 @@
+*.dll
+NoughtsAndCrosses.Core/bin/Debug/NoughtsAndCrosses.Core.pdb
+*.txt
+NoughtsAndCrosses.Core/obj/Debug/NoughtsAndCrosses.Core.pdb
+*.pdb
+NoughtsAndCrosses.Core/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+*.cs
+NoughtsAndCrosses.Web/obj/Debug/NoughtsAndCrosses.Web.csprojResolveAssemblyReference.cache
