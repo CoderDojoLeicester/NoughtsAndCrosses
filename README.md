@@ -1,2 +1,0 @@
-# NoughtsAndCrosses
-Noughts and Crosses
