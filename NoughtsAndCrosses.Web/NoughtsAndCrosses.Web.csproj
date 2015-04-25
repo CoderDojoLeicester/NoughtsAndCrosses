@@ -51,6 +51,7 @@
     <Content Include="Global.asax" />
     <Content Include="web.config" />
     <Content Include="Default.aspx" />
+    <Content Include="Multi.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.aspx.cs">
@@ -70,17 +71,23 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Multi.aspx.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Multi.aspx.designer.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NoughtsAndCrosses.Core\NoughtsAndCrosses.Core.csproj">
-      <Project>{81654037-37cc-468e-9b81-3ab38c3cfd41}</Project>
+      <Project>{81654037-37CC-468E-9B81-3AB38C3CFD41}</Project>
       <Name>NoughtsAndCrosses.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <MonoDevelop>
-      <Properties xmlns="">
+      <Properties>
         <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
       </Properties>
     </MonoDevelop>
